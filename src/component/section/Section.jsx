@@ -1,4 +1,8 @@
 import React from 'react'
+import Sale from './Sale'
+import Button from './Button'
+import Cart from './Cartview'
+import Star from './Star'
 
 const Section = () => {
   return (
@@ -24,24 +28,13 @@ const Section = () => {
             </div>
           </div>
           {/* Product actions*/}
-          <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
-            <div className="text-center">
-              <a className="btn btn-outline-dark mt-auto" href="#">
-                View options
-              </a>
-            </div>
-          </div>
+          <Cart  />
         </div>
       </div>
       <div className="col mb-5">
         <div className="card h-100">
           {/* Sale badge*/}
-          <div
-            className="badge bg-dark text-white position-absolute"
-            style={{ top: "0.5rem", right: "0.5rem" }}
-          >
-            Sale
-          </div>
+          <Sale  />
           {/* Product image*/}
           <img
             className="card-img-top"
@@ -54,13 +47,7 @@ const Section = () => {
               {/* Product name*/}
               <h5 className="fw-bolder">Special Item</h5>
               {/* Product reviews*/}
-              <div className="d-flex justify-content-center small text-warning mb-2">
-                <div className="bi-star-fill" />
-                <div className="bi-star-fill" />
-                <div className="bi-star-fill" />
-                <div className="bi-star-fill" />
-                <div className="bi-star-fill" />
-              </div>
+              <Star />
               {/* Product price*/}
               <span className="text-muted text-decoration-line-through">
                 $20.00
@@ -71,9 +58,7 @@ const Section = () => {
           {/* Product actions*/}
           <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
             <div className="text-center">
-              <a className="btn btn-outline-dark mt-auto" href="#">
-                Add to cart
-              </a>
+            <Button  />
             </div>
           </div>
         </div>
@@ -81,12 +66,7 @@ const Section = () => {
       <div className="col mb-5">
         <div className="card h-100">
           {/* Sale badge*/}
-          <div
-            className="badge bg-dark text-white position-absolute"
-            style={{ top: "0.5rem", right: "0.5rem" }}
-          >
-            Sale
-          </div>
+          <Sale  />
           {/* Product image*/}
           <img
             className="card-img-top"
@@ -108,9 +88,7 @@ const Section = () => {
           {/* Product actions*/}
           <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
             <div className="text-center">
-              <a className="btn btn-outline-dark mt-auto" href="#">
-                Add to cart
-              </a>
+            <Button  />
             </div>
           </div>
         </div>
@@ -129,13 +107,7 @@ const Section = () => {
               {/* Product name*/}
               <h5 className="fw-bolder">Popular Item</h5>
               {/* Product reviews*/}
-              <div className="d-flex justify-content-center small text-warning mb-2">
-                <div className="bi-star-fill" />
-                <div className="bi-star-fill" />
-                <div className="bi-star-fill" />
-                <div className="bi-star-fill" />
-                <div className="bi-star-fill" />
-              </div>
+              <Star />
               {/* Product price*/}
               $40.00
             </div>
@@ -143,9 +115,7 @@ const Section = () => {
           {/* Product actions*/}
           <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
             <div className="text-center">
-              <a className="btn btn-outline-dark mt-auto" href="#">
-                Add to cart
-              </a>
+            <Button  />
             </div>
           </div>
         </div>
@@ -153,12 +123,7 @@ const Section = () => {
       <div className="col mb-5">
         <div className="card h-100">
           {/* Sale badge*/}
-          <div
-            className="badge bg-dark text-white position-absolute"
-            style={{ top: "0.5rem", right: "0.5rem" }}
-          >
-            Sale
-          </div>
+          <Sale  />
           {/* Product image*/}
           <img
             className="card-img-top"
@@ -180,9 +145,7 @@ const Section = () => {
           {/* Product actions*/}
           <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
             <div className="text-center">
-              <a className="btn btn-outline-dark mt-auto" href="#">
-                Add to cart
-              </a>
+             <Button />
             </div>
           </div>
         </div>
@@ -205,13 +168,7 @@ const Section = () => {
             </div>
           </div>
           {/* Product actions*/}
-          <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
-            <div className="text-center">
-              <a className="btn btn-outline-dark mt-auto" href="#">
-                View options
-              </a>
-            </div>
-          </div>
+          <Cart  />
         </div>
       </div>
       <div className="col mb-5">
@@ -235,13 +192,7 @@ const Section = () => {
               {/* Product name*/}
               <h5 className="fw-bolder">Special Item</h5>
               {/* Product reviews*/}
-              <div className="d-flex justify-content-center small text-warning mb-2">
-                <div className="bi-star-fill" />
-                <div className="bi-star-fill" />
-                <div className="bi-star-fill" />
-                <div className="bi-star-fill" />
-                <div className="bi-star-fill" />
-              </div>
+              <Star />
               {/* Product price*/}
               <span className="text-muted text-decoration-line-through">
                 $20.00
@@ -252,9 +203,7 @@ const Section = () => {
           {/* Product actions*/}
           <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
             <div className="text-center">
-              <a className="btn btn-outline-dark mt-auto" href="#">
-                Add to cart
-              </a>
+            <Button  />
             </div>
           </div>
         </div>
@@ -273,13 +222,7 @@ const Section = () => {
               {/* Product name*/}
               <h5 className="fw-bolder">Popular Item</h5>
               {/* Product reviews*/}
-              <div className="d-flex justify-content-center small text-warning mb-2">
-                <div className="bi-star-fill" />
-                <div className="bi-star-fill" />
-                <div className="bi-star-fill" />
-                <div className="bi-star-fill" />
-                <div className="bi-star-fill" />
-              </div>
+              <Star />
               {/* Product price*/}
               $40.00
             </div>
@@ -287,9 +230,7 @@ const Section = () => {
           {/* Product actions*/}
           <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
             <div className="text-center">
-              <a className="btn btn-outline-dark mt-auto" href="#">
-                Add to cart
-              </a>
+              <Button  />
             </div>
           </div>
         </div>
